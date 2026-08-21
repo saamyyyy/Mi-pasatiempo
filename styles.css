@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #1a2a3a;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #d90429;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+header h1, header p {
+  color: #ffffff;
+  margin: 0 0 5px 0;
+}
+
+#site-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+#site-nav li {
+  margin: 0 12px;
+}
+
+#site-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#site-nav a:hover {
+  color: #ffd166;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #d90429;
+  border-bottom: 2px solid #ffd166;
+  padding-bottom: 5px;
+}
+
+figure {
+  text-align: center;
+  margin: 20px 0;
+}
+
+figure img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #566573;
+  margin-top: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #cfd8dc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #d90429;
+  color: #ffffff;
+}
+
+blockquote {
+  border-left: 4px solid #ffd166;
+  padding-left: 15px;
+  color: #566573;
+  font-style: italic;
+}
+
+aside {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid #cfd8dc;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #cfd8dc;
+  background-color: #f0f4f8;
+  color: #1a2a3a;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+button {
+  background-color: #d90429;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a3021d;
+}
+
+.destacado {
+  color: #d90429;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #d90429;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffd166;
+}
